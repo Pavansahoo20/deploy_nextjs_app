@@ -7,5 +7,5 @@ cd /home/ec2-user/deploy_nextjs_app
 git pull origin master
 nvm use v16
 npm install &&
-npm  build &&
+npm run build &&
 pm2 restart next_hello_world_app
