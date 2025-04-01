@@ -6,6 +6,6 @@ export NVM_DIR=$HOME/.nvm;
 cd /home/ubuntu/deploy_nextjs_app
 git pull origin master
 nvm use v16
-yarn install &&
-yarn build &&
+npm install &&
+npm  build &&
 pm2 restart next_hello_world_app
